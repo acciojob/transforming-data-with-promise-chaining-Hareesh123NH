@@ -20,7 +20,7 @@ function perform() {
 					const r=num*2;
 					res(r);
 					// console.log(r);
-					output.textContent=`Result: ${num}`;
+					output.textContent=`Result: ${r}`;
 				},1000);
 			});
 		})
@@ -30,7 +30,7 @@ function perform() {
 					const r=num-3;
 					res(r);
 					// console.log(r);
-					output.textContent=`Result: ${num}`;
+					output.textContent=`Result: ${r}`;
 				},1000);
 			});
 		})
@@ -40,7 +40,7 @@ function perform() {
 					const r=num/2;
 					res(r);
 					// console.log(r);
-					output.textContent=`Result: ${num}`;
+					output.textContent=`Result: ${r}`;
 				},1000);
 			});
 		})
@@ -50,7 +50,7 @@ function perform() {
 					const r=num+10;
 					res(r);
 					// console.log(r);
-					output.textContent=`Result: ${num}`;
+					output.textContent=`Result: ${r}`;
 				},1000);
 			});
 		})
